@@ -32,8 +32,8 @@
 <ol>
 <li>
 <p>Clone the repository:</p>
-<pre class=" language-bash"><code class="prism  language-bash"><span class="token function">git</span> clone https://github.com/your-username/assignment-management-system.git
-<span class="token function">cd</span> assignment-management-system`
+<pre class=" language-bash"><code class="prism  language-bash"><span class="token function">git</span> clone https://github.com/pintu544/assignment-submission-portal
+<span class="token function">cd</span> assignment-submission-portal`
 
 </code></pre>
 
@@ -46,7 +46,7 @@
 <li>
 <p>Set up environment variables: Create a <code>.env</code> file in the root directory and add the following:</p>
 <p>env</p>
-<p><code>PORT=5000 MONGO_URI=mongodb://localhost:27017/assignmentDB JWT_SECRET=your_jwt_secret_key</code></p>
+<p><code>PORT=5000 MONGO_URI=mongodb://localhost:27017/assignmentDB JWT_SECRET=jwt_secret_key</code></p>
 </li>
 <li>
 <p>Start the server:</p>
